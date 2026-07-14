@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="index, follow" />
+  <title>Política de Privacidad — ArteSZ Agenda</title>
+  <meta name="description" content="Política de Privacidad de la aplicación ArteSZ Agenda, desarrollada por ArteSZ SAS." />
+  <style>
+    :root {
+      --bg: #0d0d17;
+      --surface: #ffffff;
+      --surface-alt: #f5f5f8;
+      --text: #1a1a24;
+      --text-soft: #4a4a59;
+      --muted: #75758a;
+      --accent: #6c5ce7;
+      --border: #e4e4ec;
+      --radius: 14px;
+      --maxw: 760px;
+    }
+
+    * { box-sizing: border-box; }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      margin: 0;
+      background: var(--surface-alt);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      line-height: 1.65;
+      font-size: 17px;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    header.hero {
+      background: var(--bg);
+      color: #f5f5f8;
+      padding: 56px 24px 48px;
+      text-align: center;
+    }
+
+    header.hero .eyebrow {
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      font-size: 13px;
+      color: #9b9bff;
+      font-weight: 600;
+      margin: 0 0 12px;
+    }
+
+    header.hero h1 {
+      margin: 0;
+      font-size: clamp(28px, 6vw, 42px);
+      font-weight: 800;
+      letter-spacing: -1px;
+    }
+
+    header.hero p.sub {
+      margin: 14px auto 0;
+      max-width: 520px;
+      color: #b8b8cc;
+      font-size: 16px;
+    }
+
+    main {
+      max-width: var(--maxw);
+      margin: -28px auto 0;
+      padding: 0 20px 80px;
+    }
+
+    .card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: clamp(24px, 5vw, 48px);
+      box-shadow: 0 18px 50px -28px rgba(13, 13, 23, 0.35);
+    }
+
+    .meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px 20px;
+      font-size: 14px;
+      color: var(--muted);
+      margin-bottom: 28px;
+      padding-bottom: 24px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .meta strong { color: var(--text-soft); font-weight: 600; }
+
+    h2 {
+      font-size: 21px;
+      font-weight: 700;
+      margin: 40px 0 12px;
+      letter-spacing: -0.3px;
+      scroll-margin-top: 20px;
+    }
+
+    h2 .num {
+      color: var(--accent);
+      font-variant-numeric: tabular-nums;
+      margin-right: 8px;
+    }
+
+    h3 {
+      font-size: 17px;
+      font-weight: 700;
+      margin: 24px 0 6px;
+      color: var(--text-soft);
+    }
+
+    p, li { color: var(--text-soft); }
+
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    ul { padding-left: 22px; margin: 10px 0; }
+    li { margin: 6px 0; }
+
+    .note {
+      background: var(--surface-alt);
+      border-left: 3px solid var(--accent);
+      border-radius: 8px;
+      padding: 16px 18px;
+      margin: 20px 0;
+      font-size: 15px;
+    }
+
+    .toc {
+      background: var(--surface-alt);
+      border-radius: 10px;
+      padding: 18px 22px;
+      margin: 28px 0 8px;
+    }
+    .toc h2 { margin: 0 0 10px; font-size: 15px; text-transform: uppercase; letter-spacing: 1px; color: var(--muted); }
+    .toc ol { margin: 0; padding-left: 20px; columns: 2; column-gap: 28px; }
+    .toc li { margin: 4px 0; font-size: 14px; }
+    @media (max-width: 540px) { .toc ol { columns: 1; } }
+
+    footer {
+      text-align: center;
+      color: var(--muted);
+      font-size: 13px;
+      padding: 0 20px 48px;
+    }
+    footer a { color: var(--muted); text-decoration: underline; }
+  </style>
+</head>
+<body>
+  <header class="hero">
+    <p class="eyebrow">ArteSZ SAS</p>
+    <h1>Política de Privacidad</h1>
+    <p class="sub">Aplicación móvil <strong>ArteSZ Agenda</strong> — Gestión de agenda musical</p>
+  </header>
+
+  <main>
+    <article class="card">
+      <div class="meta">
+        <span><strong>Última actualización:</strong> 20 de mayo de 2026</span>
+        <span><strong>Vigente desde:</strong> 20 de mayo de 2026</span>
+      </div>
+
+      <p>
+        La presente Política de Privacidad describe cómo <strong>ArteSZ SAS</strong> (en adelante,
+        “nosotros”, “la empresa” o “el responsable”) trata la información dentro de la aplicación móvil
+        <strong>ArteSZ Agenda</strong> (en adelante, “la aplicación”). ArteSZ Agenda es una herramienta
+        privada de uso interno destinada exclusivamente a la gestión de la agenda de conciertos y eventos
+        de los artistas representados por la empresa. El acceso está restringido a personal autorizado
+        mediante credenciales.
+      </p>
+
+      <p>
+        Al utilizar la aplicación, el usuario autorizado acepta las prácticas descritas en este documento.
+      </p>
+
+      <nav class="toc" aria-label="Tabla de contenido">
+        <h2>Contenido</h2>
+        <ol>
+          <li><a href="#info">Información que recopilamos</a></li>
+          <li><a href="#uso">Cómo usamos la información</a></li>
+          <li><a href="#almacenamiento">Almacenamiento y seguridad</a></li>
+          <li><a href="#terceros">Compartición con terceros</a></li>
+          <li><a href="#documentos">Generación de documentos (PDF)</a></li>
+          <li><a href="#permisos">Permisos del dispositivo</a></li>
+          <li><a href="#retencion">Conservación de datos</a></li>
+          <li><a href="#derechos">Derechos del titular</a></li>
+          <li><a href="#menores">Datos de menores</a></li>
+          <li><a href="#cambios">Cambios a esta política</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ol>
+      </nav>
+
+      <h2 id="info"><span class="num">1.</span>Información que recopilamos</h2>
+      <p>La aplicación trata únicamente la información necesaria para gestionar la agenda musical:</p>
+
+      <h3>Datos de la cuenta</h3>
+      <ul>
+        <li>Nombre de usuario y contraseña del administrador autorizado, utilizados para iniciar sesión.</li>
+        <li>Un token de sesión que se almacena de forma local en el dispositivo para mantener la sesión activa.</li>
+      </ul>
+
+      <h3>Datos de conciertos y eventos</h3>
+      <ul>
+        <li>Artista, lugar o sede del evento y fecha.</li>
+        <li>Nombre y número telefónico del empresario o contacto comercial del evento.</li>
+        <li>Costo del evento, notas internas e indicación de si se provee hotel.</li>
+      </ul>
+
+      <h3>Información de pagos</h3>
+      <ul>
+        <li>Registros internos de pagos asociados a cada evento (monto, fecha y notas).</li>
+      </ul>
+
+      <div class="note">
+        La aplicación <strong>no</strong> recopila datos de geolocalización del dispositivo, contactos,
+        cámara, fotos ni utiliza herramientas de analítica, publicidad o rastreo de terceros. El listado de
+        ciudades disponible en la aplicación proviene de un catálogo estático incluido en la app y no del
+        dispositivo del usuario.
+      </div>
+
+      <h2 id="uso"><span class="num">2.</span>Cómo usamos la información</h2>
+      <p>La información se utiliza exclusivamente para los siguientes fines:</p>
+      <ul>
+        <li>Autenticar el acceso del personal autorizado.</li>
+        <li>Crear, consultar, actualizar y eliminar registros de conciertos y eventos.</li>
+        <li>Llevar el control de pagos y notas asociadas a cada evento.</li>
+        <li>Generar documentos en formato PDF a solicitud del usuario.</li>
+      </ul>
+      <p>No utilizamos la información con fines publicitarios ni la vendemos a terceros.</p>
+
+      <h2 id="almacenamiento"><span class="num">3.</span>Almacenamiento y seguridad</h2>
+      <p>
+        Los datos de la agenda se transmiten y almacenan en servidores gestionados a través de nuestro
+        proveedor de infraestructura en la nube. Las comunicaciones entre la aplicación y el servidor se
+        realizan mediante conexiones cifradas (HTTPS). El token de sesión se conserva localmente en el
+        almacenamiento seguro del dispositivo.
+      </p>
+      <p>
+        Adoptamos medidas técnicas y organizativas razonables para proteger la información contra accesos
+        no autorizados, pérdida o alteración. No obstante, ningún sistema es completamente infalible, por lo
+        que no podemos garantizar la seguridad absoluta de la información.
+      </p>
+
+      <h2 id="terceros"><span class="num">4.</span>Compartición con terceros</h2>
+      <p>No compartimos la información con terceros, salvo en los siguientes casos:</p>
+      <ul>
+        <li>
+          <strong>Proveedores de infraestructura:</strong> empresas de alojamiento (hosting) en la nube que
+          procesan los datos por cuenta nuestra y bajo obligaciones de confidencialidad, con el único fin de
+          operar el servicio.
+        </li>
+        <li>
+          <strong>Obligaciones legales:</strong> cuando una autoridad competente lo requiera conforme a la
+          ley aplicable.
+        </li>
+      </ul>
+
+      <h2 id="documentos"><span class="num">5.</span>Generación de documentos (PDF)</h2>
+      <p>
+        La aplicación permite generar documentos en formato PDF con la información de la agenda. Estos
+        documentos se crean en el propio dispositivo. Si el usuario decide compartirlos, lo hace de forma
+        voluntaria a través del menú de compartir del sistema operativo (correo, mensajería u otras
+        aplicaciones), siendo el usuario el único responsable del destino de dichos documentos.
+      </p>
+
+      <h2 id="permisos"><span class="num">6.</span>Permisos del dispositivo</h2>
+      <p>
+        La aplicación puede solicitar acceso al almacenamiento del dispositivo únicamente para guardar o
+        compartir los documentos PDF generados. No solicita permisos de ubicación, cámara, micrófono ni
+        contactos.
+      </p>
+
+      <h2 id="retencion"><span class="num">7.</span>Conservación de datos</h2>
+      <p>
+        Conservamos la información mientras la cuenta permanezca activa y sea necesaria para los fines
+        descritos en esta política, o durante el tiempo que exija la normativa aplicable. El titular puede
+        solicitar la eliminación de sus datos conforme a la sección de derechos.
+      </p>
+
+      <h2 id="derechos"><span class="num">8.</span>Derechos del titular</h2>
+      <p>
+        De conformidad con la Ley Estatutaria 1581 de 2012 y el Decreto 1377 de 2013 de Colombia (régimen
+        de protección de datos personales y habeas data), el titular de los datos tiene derecho a:
+      </p>
+      <ul>
+        <li>Conocer, actualizar y rectificar sus datos personales.</li>
+        <li>Solicitar prueba de la autorización otorgada para el tratamiento.</li>
+        <li>Ser informado sobre el uso que se da a sus datos.</li>
+        <li>Revocar la autorización y/o solicitar la supresión de los datos, cuando proceda.</li>
+        <li>Acceder de forma gratuita a sus datos personales.</li>
+      </ul>
+      <p>
+        Para ejercer estos derechos, el titular puede escribir al correo indicado en la sección de
+        <a href="#contacto">Contacto</a>.
+      </p>
+
+      <h2 id="menores"><span class="num">9.</span>Datos de menores</h2>
+      <p>
+        La aplicación es una herramienta profesional de uso interno y no está dirigida a menores de edad.
+        No recopilamos de forma consciente datos personales de menores.
+      </p>
+
+      <h2 id="cambios"><span class="num">10.</span>Cambios a esta política</h2>
+      <p>
+        Podemos actualizar esta Política de Privacidad ocasionalmente. Cualquier cambio se publicará en esta
+        misma página, indicando la fecha de la última actualización. Se recomienda revisar este documento de
+        forma periódica.
+      </p>
+
+      <h2 id="contacto"><span class="num">11.</span>Contacto</h2>
+      <p>
+        Si tiene preguntas sobre esta Política de Privacidad o desea ejercer sus derechos sobre sus datos
+        personales, puede contactarnos en:
+      </p>
+      <ul>
+        <li><strong>Responsable:</strong> ArteSZ SAS</li>
+        <li><strong>Correo electrónico:</strong> <a href="mailto:lacantinadesergiozapata@gmail.com">lacantinadesergiozapata@gmail.com</a></li>
+      </ul>
+    </article>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 ArteSZ SAS. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>
